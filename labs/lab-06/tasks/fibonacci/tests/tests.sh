@@ -31,7 +31,7 @@ test_fibo_sum()
     # Execute the program and capture the output
     output=$($binary)
 
-    # Calculate the expected output dynamically using the Fibonacci sum function
+    # Define the expected output
     expected_output="Sum first $N fibonacci numbers is $SOL"
 
     # Check if the output matches the expected output
