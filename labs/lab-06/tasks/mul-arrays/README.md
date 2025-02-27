@@ -21,4 +21,22 @@ Follow the comments marked with **TODO**.
 **IMPORTANT**: The product should be computed between two one-byte numbers.
 Therefore, the result is stored on two bytes.
 
+To test the implementation, enter the `tests/` directory and run:
+
+```console
+make check
+```
+
+In case of a correct solution, you will get an output such as:
+
+```text
+./run_all_tests
+
+test_mul_arrays                  ........................ passed ... 100
+
+========================================================================
+
+Total:                                                           100/100
+```
+
 If you're having difficulties solving this exercise, go through [this](../../reading/arrays.md) reading material.
