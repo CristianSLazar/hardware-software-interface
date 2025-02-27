@@ -9,7 +9,6 @@ fi
 
 binary=$SRC_PATH/fibo_sum
 log=./err.log
-ERR_TESTS=0
 
 cp $SRC_PATH/fibo_sum.asm .
 : > $log

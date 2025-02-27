@@ -9,7 +9,6 @@ fi
 
 binary=$SRC_PATH/find_substring
 log=./err.log
-ERR_TESTS=0
 
 cp $SRC_PATH/find_substring.asm .
 : > $log
